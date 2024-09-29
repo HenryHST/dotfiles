@@ -1,0 +1,9 @@
+tap "jesseduffield/lazydocker"
+brew "credstash"
+brew "helm"
+brew "helmfile"
+brew "jesseduffield/lazydocker/lazydocker"
+brew "libpq"
+brew "python@3.10"
+cask "displaylink"
+instance_eval(File.read(ENV['HOME'] + "/dotfiles/brew/Brewfile")) # include core Brefile

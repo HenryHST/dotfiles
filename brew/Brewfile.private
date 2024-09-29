@@ -1,0 +1,6 @@
+brew "ffmpeg"
+cask "discord"
+cask "google-drive"
+cask "slack"
+cask "telegram"
+instance_eval(File.read(ENV['HOME'] + "/dotfiles/brew/Brewfile")) # include core Brefile

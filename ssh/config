@@ -1,0 +1,16 @@
+
+Host *
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa
+
+Host home-server 192.168.0.2
+  User pi
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+
+Host github.com
+    HostName github.com
+    Port 22
+    User git
+    IdentityFile ~/.ssh/private.priv
