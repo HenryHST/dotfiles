@@ -20,7 +20,7 @@ ln -sfv "${HOME}"/dotfiles/ssh/config "${HOME}"/.ssh
 # shellcheck disable=SC2140
 if [ ! -f "${HOME}"/.ssh/"${USAGE}.priv" ]; then
   if [ "${USAGE}" = "work" ]; then
-    ONE_PASSWORD_VAULT="Azena"
+    ONE_PASSWORD_VAULT="Work"
   else
     ONE_PASSWORD_VAULT="Personal"
   fi
