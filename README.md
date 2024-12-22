@@ -1,7 +1,5 @@
 # dotfiles
 
-![Lint](https://github.com/henryhst/dotfiles/workflows/Lint/badge.svg) ![Valid links](https://github.com/henryhst/dotfiles/workflows/Valid%20links/badge.svg)
-
 ## Overview
 
 This repository contains my personal Dotfiles with configuration
@@ -22,7 +20,6 @@ can be used to install the tool and its corresponding configuration manually.
 
 #### nvim
 
-![nvim](/.github/screenshots/nvim.png)
 
 ### Install
 
